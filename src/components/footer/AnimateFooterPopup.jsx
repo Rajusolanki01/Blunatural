@@ -89,7 +89,7 @@ const AnimateFooterPopup = () => {
                   <div>
                     <img
                       src={imgMan}
-                      alt="DrinkPrime Salesperson"
+                      alt="Blunatural Salesperson"
                       width={122}
                       height={193}
                     />
@@ -182,7 +182,7 @@ const AnimateFooterPopup = () => {
                     class="para"
                     style={{ textAlign: "center", marginBottom: "-10px" }}
                   >
-                    By creating an account on DrinkPrime, you agree to our{" "}
+                    By creating an account on Blunatural, you agree to our{" "}
                     <a href="/terms-of-use" target="_blank">
                       Terms of Use.
                     </a>

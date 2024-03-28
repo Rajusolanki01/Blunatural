@@ -4,9 +4,9 @@ import twitterLogo from "./twitter.webp";
 import youtubeLogo from "./youtube.webp";
 import brandLogo from "./newdplogo.webp";
 
-import homepageBanner from "./Homepage-Banner-Image.webp";
-import homepageBanner1 from "./Homepage-Banner-Image1.webp";
-import homepageBanner2 from "./Homepage-Banner-Image2.webp";
+import homepageBanner from "./Homepage-Banner-Image.png";
+import homepageBanner1 from "./Homepage-Banner-Image1.png";
+import homepageBanner2 from "./Homepage-Banner-Image2.png";
 
 import ui1 from "./ui1.webp";
 import ui2 from "./ui2.webp";
@@ -21,12 +21,12 @@ import listItem from "./smgreentick.webp";
 
 import modalbg1 from "./modal1-bg.webp";
 
-import waterPurifier from "./Purifier--Homepage-Feature-section.webp";
+import waterPurifier from "./Purifier--Homepage-Feature-section.png";
 
 import plasticBottel from "./Plastic-water-can.webp";
 
 import purifier from "./Purifier.webp";
-import purifierHome from "./Purifier--Homepage-Comparision-table.webp";
+import purifierHome from "./Purifier--Homepage-Comparision-table.png";
 
 import avatarImg from "./5874833-modified.png";
 import avatarImg1 from "./5874890-modified.png";
@@ -47,14 +47,16 @@ import youtube from "./yt-icon.webp";
 import linkedin from "./link-icon.webp";
 import twitter from "./twt-icon.webp";
 
-import imgGirl from "./img-girl2.webp";
-import imgMan from "./personsale2.webp";
+import imgGirl from "./img-girl2.png";
+import imgMan from "./personsale2.png";
 
-import drinkPrimeWhiteLogo from "./DrinkPrime_logo_white.webp";
+import blunaturalLogo from "./blunatural logo.png";
+import blunaturalLogo2 from "./blunatural logo2.png";
+import aquaBot from "./aquabot.png";
 
 import callSvg from "./call.svg";
 
-import callService from "./desktop-character-contact-us.webp";
+import callService from "./desktop-character-contact-us.png";
 
 import mobileViewLogo from "./mobilelogo.webp";
 
@@ -66,9 +68,9 @@ import darkFacebook from "./darkfacebook.webp";
 import darktwitter from "./darktwitter.webp";
 import darkYoutube from "./darkyoutube.webp";
 
-import homeBannerMobile1 from "./Homepage-Banner-Image-Mobile-View.webp";
-import homeBannerMobile2 from "./Homepage-Banner-Image1-Mobile-View.webp";
-import homeBannerMobile3 from "./Homepage-Banner-Image2-Mobile-View.webp";
+import homeBannerMobile1 from "./Homepage-Banner-Image-Mobile-View.png";
+import homeBannerMobile2 from "./Homepage-Banner-Image1-Mobile-View.png";
+import homeBannerMobile3 from "./Homepage-Banner-Image2-Mobile-View.png";
 
 export {
   whatsappLogo,
@@ -109,7 +111,9 @@ export {
   facebook,
   imgGirl,
   imgMan,
-  drinkPrimeWhiteLogo,
+  blunaturalLogo,
+  blunaturalLogo2,
+  aquaBot,
   callService,
   callSvg,
   mobileViewLogo,

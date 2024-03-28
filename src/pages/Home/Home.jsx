@@ -151,7 +151,7 @@ const Home = () => {
                   <span>or over-purify water. Since every area has a</span>
                   <span>different water quality, we personalize your </span>
                   <span>
-                    DrinkPrime based on the purification level required.
+                    Blunatural based on the purification level required.
                   </span>
                 </div>
                 <div className="section-3-content-phone">
@@ -164,7 +164,7 @@ const Home = () => {
                   <span>or over-purify water. Since every area has a</span>
                   <span>different water quality, we personalize your </span>
                   <span>
-                    DrinkPrime based on the purification level required.
+                    Blunatural based on the purification level required.
                   </span>
                 </div>
                 <div className="section-3-btn">
@@ -274,7 +274,7 @@ const Home = () => {
                   }`}
                   onClick={toggleComparison}
                 >
-                  DRINKPRIME VS <br />
+                  Blunatural VS <br />
                   WATER CANS
                 </button>
               </div>
@@ -286,7 +286,7 @@ const Home = () => {
                   }`}
                   onClick={toggleComparison}
                 >
-                  DRINKPRIME VS
+                  Blunatural VS
                   <br />
                   OTHER PURIFIER
                 </button>
@@ -345,12 +345,12 @@ const Home = () => {
                     <img
                       loading="lazy"
                       src={purifierHome}
-                      alt="RO Water Purifier on Rent- DrinkPrimee"
+                      alt="RO Water Purifier on Rent- Blunatural"
                       width={164}
                       height={215}
                       style={{ width: 140 }}
                     />
-                    <p className="bold-text white">DRINKPRIME</p>
+                    <p className="bold-text white">Blunatural</p>
                   </div>
                   <p className="gray white">Perfectly purified water</p>
                   <p className="white">Zero purchase cost</p>
@@ -438,7 +438,7 @@ const Home = () => {
                     our health and environment and are joining hands with
                   </span>
                   <span>
-                    DrinkPrime into the era of water-wellness for everyone.
+                    Blunatural into the era of water-wellness for everyone.
                   </span>
                 </div>
                 <Link className="section5-text2-para-p2" to="/">
@@ -460,7 +460,7 @@ const Home = () => {
                           <img
                             style={{ borderRadius: "40px", height: "6vw" }}
                             src={avatarImg}
-                            alt="DrinkPrime Subscriber- Aparna Pais"
+                            alt="Blunatural Subscriber- Aparna Pais"
                           />
                         </div>
                         <div className="intro-head">
@@ -468,7 +468,7 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="testimonial">
-                        <span>What excited me was the DrinkPrime</span>
+                        <span>What excited me was the Blunatural</span>
                         <span>mobile app and the different</span>
                         <span>subscription plans you get to choose</span>
                         <span>from. The customer support team is very</span>
@@ -483,7 +483,7 @@ const Home = () => {
                           <img
                             style={{ borderRadius: "40px", height: "6vw" }}
                             src={avatarImg1}
-                            alt="DrinkPrime Subscriber- Saharsh"
+                            alt="Blunatural Subscriber- Saharsh"
                           />
                         </div>
                         <div className="intro-head">
@@ -492,8 +492,8 @@ const Home = () => {
                       </div>
                       <div className="testimonial">
                         <span>If you don’t want to buy a water purifier,</span>
-                        <span> DrinkPrime is the best option.</span>
-                        <span> I referred DrinkPrime to a few of my </span>{" "}
+                        <span> Blunatural is the best option.</span>
+                        <span> I referred Blunatural to a few of my </span>{" "}
                         <span>friends who moved to Bengaluru and they </span>{" "}
                         <span>are very happy with the service.</span>
                       </div>
@@ -506,7 +506,7 @@ const Home = () => {
                           <img
                             style={{ borderRadius: "40px", height: "6vw" }}
                             src={avatarImg2}
-                            alt="DrinkPrime Subscriber- Charu Agarwal"
+                            alt="Blunatural Subscriber- Charu Agarwal"
                           />
                         </div>
                         <div className="intro-head">
@@ -517,7 +517,7 @@ const Home = () => {
                         <span>
                           When our kids started having stomach problems, we
                           realized that can water is not trustworthy. Once we
-                          started using DrinkPrime, the problems have reduced
+                          started using Blunatural, the problems have reduced
                           and we don’t have to run to the doctors anymore
                         </span>
                       </div>
@@ -530,7 +530,7 @@ const Home = () => {
                           <img
                             style={{ borderRadius: "40px", height: "6vw" }}
                             src={avatarImg3}
-                            alt="DrinkPrime Subscriber- Anuj Ranjan"
+                            alt="Blunatural Subscriber- Anuj Ranjan"
                           />
                         </div>
                         <div className="intro-head">
@@ -539,10 +539,10 @@ const Home = () => {
                       </div>
                       <div className="testimonial">
                         <span>
-                          We use DrinkPrime water for drinking, cooking and
+                          We use Blunatural water for drinking, cooking and
                           washing vegetables. The water quality is excellent and
                           they offer prompt support. I have never faced any
-                          problems with DrinkPrime.
+                          problems with Blunatural.
                         </span>
                       </div>
                     </div>
@@ -693,11 +693,11 @@ const Home = () => {
           <div className="section-content">
             <p>
               When it comes to ensuring clean, safe, and healthy drinking water,
-              the DrinkPrime RO water purifier emerges as a game-changer when
+              the Blunatural RO water purifier emerges as a game-changer when
               compared to other RO water purifiers in the market. Since day one,
               it has been on a mission to redefine the experience of accessing
               purified water and making it a hassle-free experience. When you
-              subscribe to DrinkPrime, you not only gain access to cutting-edge
+              subscribe to Blunatural, you not only gain access to cutting-edge
               water purification technology but also enjoy an array of services
               that include free delivery, installation, maintenance, filter
               changes, and relocation. Their team of experts ensures that the
@@ -707,7 +707,7 @@ const Home = () => {
             </p>
 
             <p>
-              One remarkable feature of DrinkPrime is its customization
+              One remarkable feature of Blunatural is its customization
               approach. The RO water purifier is custom-built with filters
               tailored to the unique water quality of your area. This
               customisation ensures that you receive perfectly purified water,
@@ -718,13 +718,13 @@ const Home = () => {
             </p>
 
             <p>
-              The best part? The subscription plan for the DrinkPrime RO water
+              The best part? The subscription plan for the Blunatural RO water
               purifier starts at just Rs 333, making it not only a convenient
               but also a highly cost-effective solution. You can choose from a
               variety of plans including solo, couple, family, and even
               unlimited! This is a great option for young couples living on
               rent, small families, and bachelors who have to frequently move to
-              cities for work. With DrinkPrime, the journey to clean and safe
+              cities for work. With Blunatural, the journey to clean and safe
               drinking water becomes an effortless and budget-friendly
               experience.
             </p>
@@ -756,7 +756,7 @@ const Home = () => {
               <div className="expertImage">
                 <img
                   src={ylg}
-                  alt="DrinkPrime person with glass of water in hand"
+                  alt="Blunatural person with glass of water in hand"
                 />
               </div>
             </div>

@@ -26,7 +26,7 @@
 
                 .logo {
                     float: left;
-                    color: #3c4858 !important;
+                    color: #272c32 !important;
                     font-weight: 700;
                     font-size: 24px;
                     padding: 0 0 6px;
@@ -35,6 +35,7 @@
                     .img-logoMobile {
                         width: 80px;
                         height: 80px;
+                        filter: brightness(1.5);
                     }
                 }
             }
@@ -48,7 +49,7 @@
         .sticky-notice {
             position: sticky;
             top: 87px;
-            background: rgba(69, 72, 185, .15) !important;
+            background: rgba(169, 171, 190, 0.434) !important;
             text-align: center;
             display: flex;
             flex-direction: row;
@@ -70,7 +71,7 @@
                 line-height: 24px;
 
                 .stick-notice-bold-text {
-                    color: #4548b9;
+                    color: #1c22d9;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600 !important;
@@ -201,6 +202,7 @@
 
                     & img {
                         margin-bottom: -0px !important;
+                        filter: brightness(1.5) !important;
                         width: 130px;
                         margin-top: -18px;
                         vertical-align: middle;
@@ -350,12 +352,21 @@
         }
 
         .main-box {
-            width: 120%;
-            margin-top: 100px;
+            width: 100%;
+            margin-top: 90px;
 
 
             .sticky-notice {
-                margin-right: 84.5px !important;
+                margin-right: -6% !important;
+
+                .sticky-notice-text {
+                    font-size: 13px !important;
+
+                    a {
+                        font-size: 13px !important;
+                        margin-left: 2px;
+                    }
+                }
             }
         }
 
@@ -366,7 +377,7 @@
                 & img {
                     margin-top: 100px !important;
                     width: 500px !important;
-                    height: 400px !important;
+                    height: 350px !important;
                 }
             }
 
@@ -394,7 +405,7 @@
 
         .footer {
             .col-12 {
-                margin-left: 50px;
+                margin-left: 30px;
             }
 
             .flex-column {
@@ -404,6 +415,10 @@
                     margin-top: 10px;
                     margin-bottom: -20px !important;
                     text-align: center;
+
+                    & img {
+                        filter: brightness(2) !important;
+                    }
                 }
 
                 & p {

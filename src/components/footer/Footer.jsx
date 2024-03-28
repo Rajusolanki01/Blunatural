@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Footer.scss";
 import { Link } from "react-router-dom";
 import {
+  blunaturalLogo,
   facebook,
   instagram,
   linkedin,
@@ -46,10 +47,13 @@ const Footer = () => {
             <div className="col-a">
               <img
                 className="logo"
-                src={logoFooter}
-                alt="DrinkPrime Logo White"
-                width="150"
-                height="150"
+                src={blunaturalLogo}
+                alt="Blunatural Logo White"
+                style={{
+                  width: "120px",
+                  height: "120px",
+                  marginBottom: "10px",
+                }}
               />
               <p className="col-para">
                 #9/A, Chukki Complex, 19th Main Rd,Sector 3, HSR Layout,
@@ -69,7 +73,7 @@ const Footer = () => {
                 </Link>
 
                 <Link
-                  href="https://apps.apple.com/in/app/drinkprime/id1358111884"
+                  href="https://apps.apple.com/in/app/Blunatural/id1358111884"
                   target="_blank"
                 >
                   <img
@@ -93,7 +97,7 @@ const Footer = () => {
                   <a href="/howitworks">How it works</a>
                 </li>
                 <li>
-                  <a href="/#sec3">DrinkPrime Advantage </a>
+                  <a href="/#sec3">Blunatural Advantage </a>
                 </li>
                 <li>
                   <a href="/customerstories">Customer stories</a>
@@ -118,7 +122,7 @@ const Footer = () => {
                   <a href="/press">News and events</a>
                 </li>
                 <li>
-                  <a href="https://drinkprime.in/blog/">Blog</a>
+                  <a href="/">Blog</a>
                 </li>
               </ul>
             </div>
@@ -139,7 +143,7 @@ const Footer = () => {
                 <li>
                   <div className="section-footer-social-media">
                     <Link
-                      href="https://www.facebook.com/DrinkPrime/"
+                      href="https://www.facebook.com/Blunatural/"
                       className="footer-icon-parent "
                     >
                       {" "}
@@ -150,21 +154,21 @@ const Footer = () => {
                       <img src={twitter} alt="Twitter Icon" />{" "}
                     </Link>
                     <Link
-                      href="https://www.instagram.com/drink_prime/?hl=en"
+                      href="https://www.instagram.com/Blunatural/?hl=en"
                       className="footer-icon-parent"
                     >
                       {" "}
                       <img src={instagram} alt="Instagram Icon" />{" "}
                     </Link>
                     <Link
-                      href="https://www.youtube.com/c/drinkprime"
+                      href="https://www.youtube.com/c/Blunatural"
                       className="footer-icon-parent"
                     >
                       {" "}
                       <img src={youtube} alt="Youtube Icon" />{" "}
                     </Link>
                     <Link
-                      href="https://www.linkedin.com/company/drinkprime/?originalSubdomain=in"
+                      href="https://www.linkedin.com/company/Blunatural/?originalSubdomain=in"
                       className="footer-icon-parent"
                     >
                       {" "}

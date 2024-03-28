@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
 import {
+  blunaturalLogo,
+  blunaturalLogo2,
   brandLogo,
   darkFacebook,
   darkYoutube,
@@ -47,9 +49,12 @@ const Header = () => {
       <div className="Header">
         <div className="NavBar">
           <div className="section">
-            <a href="tel:+8700026451" className="icons">
+            <a
+              href="https://api.whatsapp.com/send/?phone=917599666612&text=Hi%2C+I+wan%27t+to+enquire+about+Aquabot.&type=phone_number&app_absent=0"
+              className="icons"
+            >
               <img src={whatsappLogo} alt="Whatsapp Logo" className="logo" />{" "}
-              87000-264-51
+              759-966-6612
             </a>
           </div>
           <div className="section">
@@ -72,7 +77,7 @@ const Header = () => {
       <div className={`navBar-1 ${showNavbar ? "show" : ""}`}>
         <div className="brand-logo">
           <Link to="/">
-            <img src={brandLogo} alt="" />
+            <img src={blunaturalLogo} alt="" />
           </Link>
         </div>
         <ul className="navList">
@@ -99,9 +104,9 @@ const Header = () => {
 
       {/* MOBILE VIEW  */}
 
-      <div className={` hamburger-nav ${showNavbar ? "show" : ""}`}>
+      <div className={`hamburger-nav ${showNavbar ? "show" : ""}`}>
         <a href="/">
-          <img src={mobileViewLogo} alt="DrinkPrime Mobile Logo" />
+          <img src={blunaturalLogo} alt="Blunatural Mobile Logo" className="mob-logo" />
         </a>
         <div className="hamburger" onClick={handleShowContent}>
           <input className="checkbox" type="checkbox" />
@@ -179,15 +184,15 @@ const Header = () => {
                 </a>
               </span>
               <div className="section">
-                <a href="https://www.facebook.com/DrinkPrime/">
+                <a href="https://www.facebook.com/Blunatural/">
                   {" "}
                   <img src={darkFacebook} alt="Blue Facebook logo" />{" "}
                 </a>
-                <a href="https://twitter.com/drinkprime?lang=en">
+                <a href="https://twitter.com/Blunatural?lang=en">
                   {" "}
                   <img src={darktwitter} alt="Blue Twitter Logo" />{" "}
                 </a>
-                <a href="https://www.youtube.com/c/drinkprime">
+                <a href="https://www.youtube.com/c/Blunatural">
                   {" "}
                   <img src={darkYoutube} alt="Dark Youtube Logo" />{" "}
                 </a>

@@ -24,7 +24,7 @@
                 align-self: flex-start;
                 display: flex;
                 flex-direction: column;
-                margin-top: -5%;
+                margin-top: -3%;
                 padding: 20px;
                 margin-bottom: 2%;
 
@@ -237,15 +237,16 @@
                 margin-top: 0;
 
                 .col-a {
-                    margin-left: 0;
+                    margin-left: 10px;
                     width: 100%;
-                    align-self: flex-start;
+                    align-self: flex-end !important;
                     text-align: center;
                     margin-bottom: -20px;
 
 
                     .logo {
-                        width: 75%;
+                        width: 50%;
+                        margin-bottom: 2%;
                     }
 
                     .col-para {
@@ -265,14 +266,13 @@
                 }
 
                 .col-b {
-                    margin-top: 2%;
-                    align-self: flex-start;
-                    width: 45%;
-
-
+                    margin-left: 45px;
+                    margin-top: 5%;
+                    align-self: flex-start !important;
+                    width: 40%;
 
                     & h2 {
-                        padding-left: 0;
+                        padding-left: 0px;
                         font-size: 13px;
                     }
 
@@ -294,15 +294,18 @@
                 }
 
                 .col-b-left {
-                    margin-left: 35px;
+                    width: 30%;
+                    margin-left: 65px;
                     padding-left: 0;
                 }
 
                 .col-b-left-1 {
-                    margin-left: 0px;
+                    margin-top: 10px;
+                    margin-left: 45px;
                 }
 
                 .col-b-left-2 {
+                    margin-top: 10px;
                     margin-left: 30px;
                 }
             }

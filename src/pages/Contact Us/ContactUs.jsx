@@ -1,11 +1,7 @@
 import React from "react";
 import "./ContactUs.scss";
 import { Link } from "react-router-dom";
-import {
-  callService,
-  callSvg,
-  drinkPrimeWhiteLogo,
-} from "../../components/assets";
+import { blunaturalLogo, callService, callSvg } from "../../components/assets";
 
 const ContactUs = () => {
   return (
@@ -19,7 +15,7 @@ const ContactUs = () => {
               <Link className="logo" to="/">
                 <img
                   className="img-logoMobile"
-                  src={drinkPrimeWhiteLogo}
+                  src={blunaturalLogo}
                   height="26"
                   alt="DrinkPrime Logo White"
                 />
@@ -35,9 +31,9 @@ const ContactUs = () => {
             <img src={callSvg} alt="callicon" className="callIcon" />
             <div className="sticky-notice-text">
               To contact support, please call us on{" "}
-              <a href="tel:+918700026451" className="stick-notice-bold-text">
+              <a href="tel:+917599666612" className="stick-notice-bold-text">
                 {" "}
-                87000 264 51
+                759-966-6612
               </a>
             </div>
           </div>
@@ -121,14 +117,13 @@ const ContactUs = () => {
         <div className="footer">
           <div className="container">
             <div className="row justify-content-between">
-              <div className="col-lg-4 col-sm-12 col-md-4 col-12">
+              <div className=" col-12">
                 <div className="flex-column">
                   <a className="footer-imgLink" href="/">
                     <img
-                      id="footer-img"
-                      src="https://d215djazwhhd02.cloudfront.net/images/DrinkPrime_logo_white.webp"
-                      alt="DrinkPrime Logo White"
-                      className=""
+                      src={blunaturalLogo}
+                      alt="Blunatural Logo White"
+                      className="footer-logo-img"
                     />
                   </a>
                   <p>
@@ -147,18 +142,18 @@ const ContactUs = () => {
                       >
                         <img
                           src="https://d215djazwhhd02.cloudfront.net/images_dp/googleplay.webp"
-                          alt="DrinkPrime Google Play"
+                          alt="Blunatural Google Play"
                         />
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="https://apps.apple.com/in/app/drinkprime/id1358111884"
+                        href="https://apps.apple.com/in/app/Blunatural/id1358111884"
                         target="_blank"
                       >
                         <img
                           src="https://d215djazwhhd02.cloudfront.net/images_dp/appstore.webp"
-                          alt="DrinkPrime appstore"
+                          alt="Blunatural appstore"
                         />
                       </Link>
                     </li>

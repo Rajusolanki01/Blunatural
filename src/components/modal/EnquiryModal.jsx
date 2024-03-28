@@ -80,7 +80,7 @@ const EnquiryModal = () => {
                   <div>
                     <img
                       src={imgGirl}
-                      alt="DrinkPrime Salesperson"
+                      alt="Blunatural Salesperson"
                       width={122}
                       height={193}
                     />

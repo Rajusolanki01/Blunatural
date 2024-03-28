@@ -77,7 +77,7 @@ const Modal = ({ isOpen, setIsOpen, selectedIndex }) => {
       imageLabel: "Input water quality",
       imageUrl: modalbg1,
       imageAlt: "Ro-images",
-      processLabel: "DrinkPrime filtration process",
+      processLabel: "Blunatural filtration process",
       processDescription:
         "Food-Grade Polypropylene Yarn- Wound Sediment Filter + Coconut Shell Activated Carbon Block + Low TDS Reduction RO Membrane for Chemical & Microbial Contaminant Removal + Bacteriostatic Silver Impregnated Post Carbon Filter",
     },
@@ -90,7 +90,7 @@ const Modal = ({ isOpen, setIsOpen, selectedIndex }) => {
       imageLabel: "Input water quality",
       imageUrl: modalbg1,
       imageAlt: "Ro-images",
-      processLabel: "DrinkPrime filtration process",
+      processLabel: "Blunatural filtration process",
       processDescription:
         "100% Cotton Yarn Sediment Filter + Pre Carbon Block with Organic Activated Charcoal + Chemical Free RO Membrane with Germs Remover + Silver Impregnated Post Carbon Filter",
     },
@@ -103,7 +103,7 @@ const Modal = ({ isOpen, setIsOpen, selectedIndex }) => {
       imageLabel: "Input water quality",
       imageUrl: modalbg1,
       imageAlt: "Ro-images",
-      processLabel: "DrinkPrime filtration process",
+      processLabel: "Blunatural filtration process",
       processDescription:
         "Food-Grade Polypropylene Yarn-Wound Sediment Filter + CoconutShell Activated Carbon Block + LowTDS Reduction RO Membrane forChemical & Microbial Contaminant Removal + Bacteriostatic Silver Impregnated Post Carbon Filter",
     },
@@ -116,7 +116,7 @@ const Modal = ({ isOpen, setIsOpen, selectedIndex }) => {
       imageLabel: "Input water quality",
       imageUrl: modalbg1,
       imageAlt: "Ro-images",
-      processLabel: "DrinkPrime filtration process",
+      processLabel: "Blunatural filtration process",
       processDescription:
         "Food-Grade Polypropylene Yarn-Wound Sediment Filter +  Coconut Shell Activated Carbon Block + Low TDS Reduction RO Membrane for Chemical & Microbial Contaminant Removal + Bacteriostatic Silver Impregnated Post Carbon Filter",
     },

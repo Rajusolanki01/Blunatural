@@ -3,15 +3,12 @@ import "./Header.scss";
 import { Link } from "react-router-dom";
 import {
   blunaturalLogo,
-  blunaturalLogo2,
-  brandLogo,
   darkFacebook,
   darkYoutube,
   darktwitter,
   drop,
   facebookLogo,
   mobileMail,
-  mobileViewLogo,
   mobileWhatsapp,
   twitterLogo,
   whatsappLogo,
@@ -106,7 +103,11 @@ const Header = () => {
 
       <div className={`hamburger-nav ${showNavbar ? "show" : ""}`}>
         <a href="/">
-          <img src={blunaturalLogo} alt="Blunatural Mobile Logo" className="mob-logo" />
+          <img
+            src={blunaturalLogo}
+            alt="Blunatural Mobile Logo"
+            className="mob-logo"
+          />
         </a>
         <div className="hamburger" onClick={handleShowContent}>
           <input className="checkbox" type="checkbox" />
@@ -145,22 +146,22 @@ const Header = () => {
             </span>
             <span>
               {" "}
-              <a
-                href="/refer_earn"
+              <Link
+                to="/"
                 className="last2-ham-nav"
                 onclick="window.pushDataLayer('w_header_refer_earn_clicked')"
               >
                 {" "}
                 <img src={drop} alt="Water Droplet" />
                 Refer &amp; earn{" "}
-              </a>
+              </Link>
             </span>
             <span>
               {" "}
-              <a href="/contact-us" className="last2-ham-nav">
+              <Link to="/contact-us" className="last2-ham-nav">
                 <img src={drop} alt="Water Droplet" />
                 Contact Us
-              </a>
+              </Link>
             </span>
             <div className="hamburger-nav-menu-social">
               <span>
